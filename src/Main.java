@@ -23,23 +23,17 @@ public class Main {
             System.out.print("Ваш вибір: ");
             choice = sc.nextInt();
             switch (choice) {
-                case 1:
-                    createFile();
+                case 1: createFile();
                     break;
-                case 2:
-                    addNumbers();
+                case 2: addNumbers();
                     break;
-                case 3:
-                    viewFile(mainFile);
+                case 3: viewFile(mainFile);
                     break;
-                case 4:
-                    editFile();
+                case 4: editFile();
                     break;
-                case 5:
-                    createPrimesFile();
+                case 5: createPrimesFile();
                     break;
-                case 6:
-                    viewFile(primesFile);
+                case 6: viewFile(primesFile);
                     break;
                 case 0:
                     System.out.println("Програма завершена");
